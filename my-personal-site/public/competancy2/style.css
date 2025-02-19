@@ -15,3 +15,21 @@ h1 {
 h2{
     font-size: 2.25rem;
 }
+
+h3 {
+  text-transform: uppercase;
+}
+
+a {
+  color: #a7320b;
+}
+
+.about-me {
+  font-style: italic;
+  color: #F2AA52;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: square;
+}
