@@ -8,6 +8,29 @@ nav ul {
   padding: 0;
 }
 
+header {
+  text-align: center;
+  padding-top: 1rem;
+}
+
 a {
   text-decoration: none;
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #d17e32;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+footer {
+  background-color: #e9d8c8;
+  text-align: center;
+  padding: 1rem;
 }
