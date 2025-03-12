@@ -3,6 +3,7 @@ nav {
 }
 
 nav ul {
+  display: inline-block;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -10,7 +11,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  background-color: #d17e32;
+  padding: 0;
 }
 
 nav ul li a {
@@ -21,6 +22,10 @@ nav ul li a {
 header {
   text-align: center;
   padding-top: 1rem;
+}
+
+header nav a {
+  background-color: #d17e32;
 }
 
 a {
