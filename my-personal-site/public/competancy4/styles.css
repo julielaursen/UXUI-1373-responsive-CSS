@@ -114,23 +114,19 @@ main section h2 {
 }
 
 .marketing {
-  background-color: red;
-}
-
-.marketing {
-  background-color: red;
+  background-color: #fd6b5c;
 }
 
 .sites {
-  background-color: yellow;
+  background-color: #a04c9a;
 }
 
 .protection {
-  background-color: purple;
+  background-color: #fdb52b;
 }
 
 .capital {
-  background-color: blue;
+  background-color: #4da5d3;
 }
 
 .footer {
