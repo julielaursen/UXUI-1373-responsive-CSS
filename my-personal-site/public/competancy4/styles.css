@@ -1,0 +1,71 @@
+/*Google Fonts: */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Sansita+Swashed:wght@300..900&display=swap");
+
+/*
+  font-family: "Sansita Swashed", system-ui;
+  font-family: "Rubik", sans-serif;
+*/
+
+body,
+header,
+form,
+main,
+section,
+div,
+input,
+textarea,
+select,
+footer {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  margin: 7rem 2rem 0 2rem;
+}
+
+header {
+  background-color: white;
+  border-bottom: 2px solid orange;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 0;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Sansita Swashed", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.hero {
+  align-items: center;
+  display: flex;
+}
+
+.hero section,
+.hero form {
+  padding: 2rem;
+  width: 50%;
+}
+
+.hero form {
+  background-color: lightgrey;
+}
+
+label,
+input,
+select,
+textarea {
+  display: block;
+}
+
+input,
+select,
+textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 100%;
+}
