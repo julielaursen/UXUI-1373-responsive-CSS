@@ -45,6 +45,15 @@ header {
   display: flex;
 }
 
+.hero h1 {
+  font-size: 3rem;
+}
+
+.hero p {
+  color: darkgrey;
+  font-size: 1.25rem;
+}
+
 .hero section,
 .hero form {
   padding: 2rem;
@@ -68,4 +77,80 @@ textarea {
   margin-bottom: 1rem;
   padding: 0.5rem;
   width: 100%;
+}
+
+input[type="submit"] {
+  background-color: forestgreen;
+  border: none;
+  cursor: pointer;
+  color: white;
+  padding: 0.75rem;
+  text-transform: uppercase;
+  transition: all 0.3s linear;
+}
+
+input[type="submit"]:hover {
+  background-color: orange;
+}
+
+main {
+  display: flex;
+  margin: 5rem 0;
+}
+
+main section {
+  padding: 1rem;
+  transition: all 1s linear;
+  width: 25%;
+  color: white;
+}
+
+main section:hover {
+  transform: translateY(-1rem);
+}
+
+main section h2 {
+  font-transform: uppercase;
+}
+
+.marketing {
+  background-color: red;
+}
+
+.marketing {
+  background-color: red;
+}
+
+.sites {
+  background-color: yellow;
+}
+
+.protection {
+  background-color: purple;
+}
+
+.capital {
+  background-color: blue;
+}
+
+.footer {
+  border-top: 2px solid lightgrey;
+  padding: 1rem 0 2rem;
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+}
+
+footer nav li {
+  margin: 0 1rem;
+  padding: 0 1rem;
+}
+
+footer nav a {
+  text-decoration: none;
+  color: blue;
 }
