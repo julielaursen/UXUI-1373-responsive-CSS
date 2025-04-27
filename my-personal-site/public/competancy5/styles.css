@@ -92,6 +92,7 @@ hero p {
 
 .services,
 .portfolio {
+  display: block;
   padding: 4rem 3rem;
 }
 
@@ -99,7 +100,6 @@ hero p {
 .portfolio {
   color: #333;
   font-size: 1.75rem;
-  margin: 0;
   margin-bottom: 1rem;
 }
 
@@ -107,7 +107,16 @@ hero p {
 .portfolio {
   font-weight: normal;
   font-size: 1.25rem;
-  margin: 0;
+}
+
+.services h3 {
+  font-weight: normal;
+  font-size: 1.25rem;
+}
+
+.portfolio h3 {
+  font-weight: normal;
+  font-size: 1.25rem;
 }
 
 /* icons and cards section */
@@ -152,7 +161,7 @@ hero p {
 }
 
 footer {
-  padding: 1rem 2rem 2rem;
+  padding: 1rem 2rem 2rem 2rem;
 }
 
 .copyright {
@@ -194,6 +203,10 @@ footer nav a:hover {
   background-color: hotpink;
   font-size: 0.75rem;
   padding: 0.5rem 0.75rem;
+}
+
+.secondary-button:hover {
+  background-color: lightskyblue;
 }
 
 /* breakpoints */
